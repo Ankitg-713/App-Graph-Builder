@@ -124,6 +124,3 @@ src/
 └── lib/                 # Utilities
 ```
 
-## License
-
-MIT

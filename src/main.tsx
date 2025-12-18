@@ -3,12 +3,8 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-// Enable MSW mocking in development
+// Enable MSW mocking in all environments (including production for demo)
 async function enableMocking() {
-  if (import.meta.env.MODE !== 'development') {
-    return;
-  }
-
   const { worker } = await import('./mocks/browser');
   return worker.start({
     onUnhandledRequest: 'bypass',

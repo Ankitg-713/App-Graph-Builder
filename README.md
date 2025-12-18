@@ -2,7 +2,17 @@
 
 🔗 **Live Demo:** [https://app-graph-builder-eight.vercel.app](https://app-graph-builder-eight.vercel.app)
 
-A ReactFlow-based application graph builder UI built with React, TypeScript, and modern tooling.
+A modern, responsive graph visualization tool for managing application infrastructure. Built as a frontend intern task to demonstrate proficiency in React, TypeScript, and state management.
+
+## About
+
+This project is an **interactive graph builder** that allows users to:
+- Visualize application service dependencies as connected nodes
+- Inspect and configure individual service/database nodes
+- Add, drag, select, and delete nodes on a canvas
+- Switch between multiple applications with cached data
+
+Built with a focus on **clean architecture**, **type safety**, and **responsive design**.
 
 ## Tech Stack
 
